@@ -317,7 +317,7 @@ footer, .footer-copyright{
 }
 
 .footer-site-name, .footer-copyright{
-    font-size: .875em;
+    font-size: .75em;
 }
 
 /* Individual classes */
@@ -330,15 +330,20 @@ footer{
     margin-left: auto;
     margin-right: auto;
     min-width: 390px;
+    max-height: 105px;
 }
 
 .footer-site-name{
     font-weight: 700;
     color: darkslategray;
+    margin: 0 0 .25em 0;
+    padding: 0;
 }
 
 .footer-copyright{
     font-weight: 400;
+    padding: 0;
+    margin: 0;
 }
 
 @media (min-width: 480px) and (max-width: 768px){
